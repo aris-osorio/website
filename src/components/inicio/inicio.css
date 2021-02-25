@@ -39,11 +39,13 @@
 {
     color: yellow!important;
 }
+/* #Dispositivo = Tablets de baja resolución y teléfonos Móviles (horizontal) 
+#Resolución = B/w 481px to 767px */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) 
 {
     .vh-100
     {
-        height: calc(var(--vh, 1vh) * 100);
+        
     }
     .bg-inicio
     {
@@ -67,4 +69,59 @@
     {
         font-size: 25px;
     } 
+}
+/* #Dispositivo = Tablets de baja resolución y teléfonos Móviles (horizontal) 
+#Resolución = B/w 481px to 767px */
+@media (min-width: 481px) and (max-width: 767px) 
+{
+    .titulo-inicio
+    {
+        font-size: 61px;
+    }  
+    .subtitulo-inicio
+    {
+        font-size: 25px;
+    } 
+}
+/* Smartphones (portrait) */
+@media only screen and (max-width : 320px)
+{
+    .vh-100
+    {
+        height: calc(var(--vh, 1vh) * 100);
+    }
+    .bg-inicio
+    {
+        background-image: url('../../media/mandril1.jpg');
+    }
+    .contenido-inicio
+    { 
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .contenido-titulo
+    {
+        width: 100vw;
+        background: rgba(0,0,0,.8);
+    }
+    .titulo-inicio
+    {
+        font-size: 55px;
+    }  
+    .subtitulo-inicio
+    {
+        font-size: 20px;
+    } 
+}
+/* iPads (portrait & landscape) */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) 
+{
+    .bg-inicio
+    {
+        background-image: url('../../media/mandril2.jpg');
+    }
+    .titulo-inicio
+    {
+        font-size: 90px;
+    }  
 }
