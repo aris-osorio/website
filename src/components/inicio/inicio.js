@@ -11,7 +11,7 @@ export default function Inicio() {
         <section id="inicio">
             <div className="bg-inicio vh-100">
                 <div className="contenido-inicio">
-                    <div className="contenido-titulo">
+                    <div className="contenido-titulo blanco">
                         <h1 className="titulo-inicio">
                             Aris Osorio
                         </h1>
