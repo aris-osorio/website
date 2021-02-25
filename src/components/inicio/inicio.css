@@ -48,7 +48,8 @@
         height: calc(var(--vh, 1vh) * 100);
     }
     .bg-inicio
-    {
+    { 
+        background-attachment: inherit;
         background-image: url('../../media/mandril1.jpg');
     }
     .contenido-inicio
@@ -69,122 +70,4 @@
     {
         font-size: 25px;
     } 
-}
-/* #Dispositivo = Tablets de baja resolución y teléfonos Móviles (horizontal) 
-#Resolución = B/w 481px to 767px */
-@media (min-width: 481px) and (max-width: 767px) 
-{
-    .titulo-inicio
-    {
-        font-size: 61px;
-    }  
-    .subtitulo-inicio
-    {
-        font-size: 25px;
-    } 
-}
-/* Smartphones (portrait) */
-@media only screen and (max-width : 320px)
-{
-    .vh-100
-    {
-        height: calc(var(--vh, 1vh) * 100);
-    }
-    .bg-inicio
-    {
-        background-image: url('../../media/mandril1.jpg');
-    }
-    .contenido-inicio
-    { 
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-    .contenido-titulo
-    {
-        width: 100vw;
-        background: rgba(0,0,0,.8);
-    }
-    .titulo-inicio
-    {
-        font-size: 55px;
-    }  
-    .subtitulo-inicio
-    {
-        font-size: 20px;
-    } 
-}
-/* iPads (portrait & landscape) */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) 
-{
-    .bg-inicio
-    {
-        background-image: url('../../media/mandril2.jpg');
-    }
-    .titulo-inicio
-    {
-        font-size: 90px;
-    }  
-}
-/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-    
-    .vh-100
-    {
-        height: 100vh;
-    }
-    
-}
-/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
-/* Portrait */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-    .vh-100
-    {
-        height: 100vh;
-    }
-}
-/* ----------- iPhone 6+, 7+ and 8+ ----------- */
-/* Portrait */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-    .vh-100
-    {
-        height: 100vh;
-    }
-}
-/* ----------- iPhone X ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-    .vh-100
-    {
-        height: 100vh;
-    }
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-    .vh-100
-    {
-        height: 100vh;
-    }
 }
