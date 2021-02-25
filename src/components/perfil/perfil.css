@@ -1,0 +1,8 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) 
+{
+    .bg-perfil
+    {
+        height: 100vh;
+        height: calc(var(--vh, 1vh) * 100);
+    }
+}

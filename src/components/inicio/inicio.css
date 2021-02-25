@@ -1,0 +1,13 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) 
+{
+    .bg-inicio
+    {
+        height: 100vh;
+        height: calc(var(--vh, 1vh) * 100);
+        background-image: url('../../media/mandril1.jpg');
+        background-position: top center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
