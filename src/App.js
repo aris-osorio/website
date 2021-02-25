@@ -7,6 +7,7 @@ function App() {
     <div>
       <Inicio />
       <Perfil />
+      <Perfil />
     </div>
   );
 }

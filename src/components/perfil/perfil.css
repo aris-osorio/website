@@ -1,8 +1,9 @@
+.bg-perfil
+{
+    height: 100vh;
+    background-color:#000000;
+}
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) 
 {
-    .bg-perfil
-    {
-        height: 100vh;
-        background-color:#000000;
-    }
+   
 }

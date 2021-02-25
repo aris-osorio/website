@@ -1,4 +1,5 @@
 import './inicio.css'
+import Typed from 'react-typed';
 
 export default function Inicio() {
     // First we get the viewport height and we multiple it by 1% to get a value for a vh unit
@@ -8,10 +9,17 @@ export default function Inicio() {
 
     return (
         <section id="inicio">
-            <div className="bg-inicio">
-                <div className="">
-                    <h1 className="">Aris Osorio</h1>
-                    <h2 className="">Desarrollador</h2>
+            <div className="bg-inicio vh-100">
+                <div className="contenido-inicio">
+                    <div className="contenido-titulo">
+                        <h1 className="titulo-inicio">
+                            Aris Osorio
+                        </h1>
+                        <h2 className="subtitulo-inicio">
+                            Desarrollador&nbsp;
+                            <Typed strings={['Web', 'React', 'Django', 'Fullstack']} typeSpeed={40} backSpeed={50} startDelay={2000} backDelay={1000} />
+                        </h2>
+                    </div>
                 </div>
             </div>
         </section>
